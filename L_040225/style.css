@@ -1,0 +1,40 @@
+.navbar-container{
+    justify-content: center;
+    overflow: hidden;
+    background-color:burlywood;
+}
+.navbar-container a{
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+button{
+    color: green;
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-size-adjust: 20px;
+}
+.content{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.content article{
+    padding-top:100px;
+    width: 450px;
+    height: 350px;
+    text-align: justify;
+    font-size: large;
+    
+}
+.content img{
+    padding: 5%;
+    height: 350px;
+}
+.footer-container{
+    padding-left: 15px;
+    width: max-width;
+    background-color: black;
+    color: chartreuse;
+}
