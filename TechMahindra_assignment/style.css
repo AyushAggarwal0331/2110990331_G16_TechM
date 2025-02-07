@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 40px;
+}
+.navbar-button{
+    position:relative;
+    left: 1000px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #ff4b87;
+    font-size: large;
+    border:2px solid #ff4b87;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 45px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.header-article{
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.div-header-button{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+    padding:18px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff4b87;
+    border: 0;
+    border-radius: 30px;
+    width: 330px;
+    height: 55px;
+    cursor: pointer;
+}
+.body-div-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.numbers h1{
+    font-size: 80px;
+}
+.numbers p{
+    font-size: 20px;
+    color: grey;
+}
+.section1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6FBFF;
+}
+.section1 img{
+    height: 350px;
+    width: 350px;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 img{
+    height: 350px;
+    width: 350px;
+}
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6FBFF;
+}
+.section3 img{
+    height: 350px;
+    width: 350px;
+}
+.before-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.footer-div{
+    padding-top: 80px;
+    display: flex;
+    background-color:#00252E;
+    color:white;
+    justify-content: space-around;
+}
+.footer-div p{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footer-div input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: none;
+}
+.footer-div button{
+    color: white;
+    background-color: #ff4b87;
+    width:120px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer-div-imglogo{
+    display: flex;
+}
+.footer-div-imglogo img{
+    height: 25px;
+    padding: 10px;
+}
+
+.set-image{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navbar-button {
+        position: relative;
+        left: 0;
+        padding: 8px 16px;
+    }
+
+    .header-heading {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .header-article {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .div-header-button {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .header-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .body-div-1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .numbers {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .numbers h1 {
+        font-size: 60px;
+    }
+
+    .numbers p {
+        font-size: 18px;
+    }
+
+    .section1, .section2, .section3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .section1 img, .section2 img, .section3 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .before-footer {
+        font-size: 24px;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-div p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer-div input {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .footer-div button {
+        width: 200px;
+    }
+
+    .footer-div-imglogo {
+        justify-content: center;
+    }
+
+    .footer-div-imglogo img {
+        height: 20px;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .header-heading{
+        padding-left: 180px;
+    }
+    .header-article{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
