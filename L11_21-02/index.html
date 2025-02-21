@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grand-parent{
+            border: 2px solid red;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #parent{
+            border: 2px solid green;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #child{
+            border: 3px dotted purple;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #child:hover{
+            background-color: black;
+        }
+        #parent:hover{
+            background-color: aquamarine;
+        }
+        #grand-parent:hover{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="grand-parent">
+        <div id="parent">
+            <div id="child">
+
+            </div>
+        </div>
+    </div>
+    <div id="maindiv">
+        <ul id="subjects">
+            <li id="cs">computer science</li>
+            <li id="mech">mechanical</li>
+            <li id="ee">electronics</li>
+        </ul>
+    </div> -->
+
+    <div id="search">
+        <span>Enter product:</span>
+        <input type="text" id="search-product" placeholder="enter your product">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
